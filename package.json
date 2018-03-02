@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "npm run build"
+  },
+  "devDependencies": {
+    "postcss": "^6.0.19",
+    "postcss-import": "^11.1.0",
+    "rollup": "^0.56.3",
+    "rollup-plugin-svelte": "^4.0.0",
+    "svelte": "^1.56.0"
+  }
+}
